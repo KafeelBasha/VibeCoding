@@ -2,7 +2,7 @@ PyMuPDF
 streamlit
 llama-index
 pdfplumber
-pysqlite3-binary
+sqlite3
 chromadb
 google-genai==1.26.0
 google.api_core
