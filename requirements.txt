@@ -1,9 +1,9 @@
+pip==25.2
 PyMuPDF
 llama-index
 pdfplumber
 chromadb
 streamlit
-sqlite3
 google-genai==1.26.0
 google.api_core
 pytesseract
