@@ -13,6 +13,10 @@ from get_chunks import generate_chunks_context
 from db import get_rag_response
 from metrics import extract_financial_metrics
 
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctim        e)s - %(levelname)s - %(message)s')
@@ -267,4 +271,5 @@ def main():
         "*:grey[Note: The values displayed in the 'Financial Metrics' tab are extracted from the uploaded document using AI.]*")
 
 if __name__ == "__main__":
+
     main()
