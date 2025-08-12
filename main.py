@@ -13,9 +13,9 @@ from get_chunks import generate_chunks_context
 from db import get_rag_response
 from metrics import extract_financial_metrics
 
-import sys
-import pysqlite3
-sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+# import sys
+# import pysqlite3
+# sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 
 
 # Configure logging
@@ -273,4 +273,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
