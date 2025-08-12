@@ -3,7 +3,7 @@ llama-index
 pdfplumber
 chromadb
 streamlit
-sqlite3 >= 3.35.0
+sqlite3
 google-genai==1.26.0
 google.api_core
 pytesseract
