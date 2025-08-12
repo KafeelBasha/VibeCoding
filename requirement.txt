@@ -1,5 +1,5 @@
 PyMuPDF
-streamlit 
+streamlit
 llama-index
 pdfplumber
 chromadb
