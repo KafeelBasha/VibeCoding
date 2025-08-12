@@ -19,7 +19,7 @@ sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctim        e)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def is_pdf_searchable(pdf_path):
     """Checks if a PDF contains searchable text."""
@@ -273,3 +273,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
