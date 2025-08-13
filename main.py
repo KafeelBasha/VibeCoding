@@ -13,11 +13,6 @@ from get_chunks import generate_chunks_context
 from db import get_rag_response
 from metrics import extract_financial_metrics
 
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
-
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -273,6 +268,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
