@@ -8,6 +8,7 @@ google-genai==1.26.0
 google.generativeai
 google.api_core
 pytesseract
+tesseract-ocr
 transformers
 dotenv
 pysqlite3-binary
