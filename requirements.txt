@@ -5,6 +5,7 @@ pdfplumber
 chromadb
 streamlit
 google-genai==1.26.0
+google.generativeai
 google.api_core
 pytesseract
 transformers
