@@ -6,6 +6,10 @@ import fitz # PyMuPDF
 import hashlib
 import json
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 # Ensure these imports are correct and available
 from task4 import extract_searchable_content
 from task5 import extract_image_content
@@ -267,4 +271,5 @@ def main():
         "*:grey[Note: The values displayed in the 'Financial Metrics' tab are extracted from the uploaded document using AI.]*")
 
 if __name__ == "__main__":
+
     main()
