@@ -9,3 +9,4 @@ google.api_core
 pytesseract
 transformers
 dotenv
+pysqlite3-binary
